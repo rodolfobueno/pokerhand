@@ -2,29 +2,29 @@ package br.com.zgsolucoes.pokerhand.domain;
 
 public class Card {
 
-	private CardNumber number;
-	private CardType type;
-	
-	public Card(CardNumber number, CardType type) {
-		super();
-		this.number = number;
-		this.type = type;
-	}
+  private CardNumber number;
+  private CardType type;
 
-	public CardNumber getNumber() {
-		return number;
-	}
+  public Card(CardNumber number, CardType type) {
+    super();
+    this.number = number;
+    this.type = type;
+  }
 
-	public void setNumber(CardNumber number) {
-		this.number = number;
-	}
+  public CardNumber getNumber() {
+    return number;
+  }
 
-	public CardType getType() {
-		return type;
-	}
+  public void setNumber(CardNumber number) {
+    this.number = number;
+  }
 
-	public void setType(CardType type) {
-		this.type = type;
-	}
+  public CardType getType() {
+    return type;
+  }
+
+  public void setType(CardType type) {
+    this.type = type;
+  }
 
 }
