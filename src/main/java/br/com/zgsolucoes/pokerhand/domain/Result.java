@@ -1,4 +1,4 @@
-package br.com.zgsolucoes.pokerhand;
+package br.com.zgsolucoes.pokerhand.domain;
 
 public enum Result {
   
